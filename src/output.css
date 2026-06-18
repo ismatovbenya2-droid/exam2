@@ -373,6 +373,9 @@
   .h-\[80px\] {
     height: 80px;
   }
+  .h-\[90px\] {
+    height: 90px;
+  }
   .h-\[145px\] {
     height: 145px;
   }
@@ -387,6 +390,12 @@
   }
   .h-\[420px\] {
     height: 420px;
+  }
+  .max-h-\[45px\] {
+    max-height: 45px;
+  }
+  .max-h-\[55px\] {
+    max-height: 55px;
   }
   .min-h-\[72px\] {
     min-height: 72px;
@@ -486,6 +495,24 @@
   }
   .w-full {
     width: 100%;
+  }
+  .max-w-\[70px\] {
+    max-width: 70px;
+  }
+  .max-w-\[120px\] {
+    max-width: 120px;
+  }
+  .max-w-\[150px\] {
+    max-width: 150px;
+  }
+  .max-w-\[160px\] {
+    max-width: 160px;
+  }
+  .max-w-\[170px\] {
+    max-width: 170px;
+  }
+  .max-w-\[190px\] {
+    max-width: 190px;
   }
   .max-w-\[420px\] {
     max-width: 420px;
@@ -610,6 +637,9 @@
   }
   .rounded-\[8px\] {
     border-radius: 8px;
+  }
+  .rounded-\[10px\] {
+    border-radius: 10px;
   }
   .rounded-\[12px\] {
     border-radius: 12px;
@@ -1937,6 +1967,11 @@
       height: 65px;
     }
   }
+  .max-sm\:h-\[70px\] {
+    @media (width < 40rem) {
+      height: 70px;
+    }
+  }
   .max-sm\:h-\[76px\] {
     @media (width < 40rem) {
       height: 76px;
@@ -2022,6 +2057,31 @@
       width: 100%;
     }
   }
+  .max-sm\:max-w-\[45px\] {
+    @media (width < 40rem) {
+      max-width: 45px;
+    }
+  }
+  .max-sm\:max-w-\[70px\] {
+    @media (width < 40rem) {
+      max-width: 70px;
+    }
+  }
+  .max-sm\:max-w-\[90px\] {
+    @media (width < 40rem) {
+      max-width: 90px;
+    }
+  }
+  .max-sm\:max-w-\[100px\] {
+    @media (width < 40rem) {
+      max-width: 100px;
+    }
+  }
+  .max-sm\:max-w-\[110px\] {
+    @media (width < 40rem) {
+      max-width: 110px;
+    }
+  }
   .max-sm\:-translate-x-1\/2 {
     @media (width < 40rem) {
       --tw-translate-x: calc(calc(1 / 2 * 100%) * -1);
@@ -2031,6 +2091,11 @@
   .max-sm\:grid-cols-1 {
     @media (width < 40rem) {
       grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  .max-sm\:grid-cols-2 {
+    @media (width < 40rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
   .max-sm\:flex-col {
