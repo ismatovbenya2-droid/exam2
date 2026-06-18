@@ -277,6 +277,9 @@
   .mb-32 {
     margin-bottom: calc(var(--spacing) * 32);
   }
+  .mb-\[50px\] {
+    margin-bottom: 50px;
+  }
   .ml-3 {
     margin-left: calc(var(--spacing) * 3);
   }
@@ -491,6 +494,9 @@
   .gap-4 {
     gap: calc(var(--spacing) * 4);
   }
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
+  }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
   }
@@ -670,6 +676,9 @@
   .p-0 {
     padding: 0;
   }
+  .p-8 {
+    padding: calc(var(--spacing) * 8);
+  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -717,6 +726,9 @@
   }
   .py-\[70px\] {
     padding-block: 70px;
+  }
+  .py-\[80px\] {
+    padding-block: 80px;
   }
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
@@ -844,6 +856,10 @@
     --tw-leading: 1.45;
     line-height: 1.45;
   }
+  .leading-none {
+    --tw-leading: 1;
+    line-height: 1;
+  }
   .leading-tight {
     --tw-leading: var(--leading-tight);
     line-height: var(--leading-tight);
@@ -899,6 +915,9 @@
   .text-\[\#8eb9d5\] {
     color: #8eb9d5;
   }
+  .text-\[\#9CC8E6\] {
+    color: #9CC8E6;
+  }
   .text-\[\#11b394\] {
     color: #11b394;
   }
@@ -913,6 +932,9 @@
   }
   .text-\[\#888\] {
     color: #888;
+  }
+  .text-\[\#1777B7\] {
+    color: #1777B7;
   }
   .text-black {
     color: var(--color-black);
@@ -934,6 +956,10 @@
   }
   .opacity-40 {
     opacity: 40%;
+  }
+  .shadow-lg {
+    --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .shadow-sm {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
@@ -1561,6 +1587,11 @@
       font-size: 11px;
     }
   }
+  .max-lg\:text-\[16px\] {
+    @media (width < 64rem) {
+      font-size: 16px;
+    }
+  }
   .max-lg\:text-\[18px\] {
     @media (width < 64rem) {
       font-size: 18px;
@@ -1705,6 +1736,11 @@
   .max-sm\:mb-8 {
     @media (width < 40rem) {
       margin-bottom: calc(var(--spacing) * 8);
+    }
+  }
+  .max-sm\:mb-\[35px\] {
+    @media (width < 40rem) {
+      margin-bottom: 35px;
     }
   }
   .max-sm\:ml-0 {
@@ -1981,6 +2017,11 @@
       font-size: 18px;
     }
   }
+  .max-sm\:text-\[20px\] {
+    @media (width < 40rem) {
+      font-size: 20px;
+    }
+  }
   .max-sm\:text-\[22px\] {
     @media (width < 40rem) {
       font-size: 22px;
@@ -2000,6 +2041,12 @@
     @media (width < 40rem) {
       --tw-leading: 1.2;
       line-height: 1.2;
+    }
+  }
+  .max-sm\:leading-\[1\.4\] {
+    @media (width < 40rem) {
+      --tw-leading: 1.4;
+      line-height: 1.4;
     }
   }
   .max-sm\:leading-\[1\.5\] {
