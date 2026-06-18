@@ -301,6 +301,9 @@
   .h-\[62px\] {
     height: 62px;
   }
+  .h-\[145px\] {
+    height: 145px;
+  }
   .h-\[168px\] {
     height: 168px;
   }
@@ -309,6 +312,9 @@
   }
   .h-\[306px\] {
     height: 306px;
+  }
+  .h-\[420px\] {
+    height: 420px;
   }
   .min-h-\[598px\] {
     min-height: 598px;
@@ -333,6 +339,12 @@
   }
   .w-\[66\%\] {
     width: 66%;
+  }
+  .w-\[66px\] {
+    width: 66px;
+  }
+  .w-\[74px\] {
+    width: 74px;
   }
   .w-\[100px\] {
     width: 100px;
@@ -363,6 +375,12 @@
   }
   .max-w-\[420px\] {
     max-width: 420px;
+  }
+  .max-w-\[760px\] {
+    max-width: 760px;
+  }
+  .max-w-\[970px\] {
+    max-width: 970px;
   }
   .max-w-\[1100px\] {
     max-width: 1100px;
@@ -596,6 +614,9 @@
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
+  }
+  .py-16 {
+    padding-block: calc(var(--spacing) * 16);
   }
   .py-20 {
     padding-block: calc(var(--spacing) * 20);
@@ -1204,6 +1225,11 @@
       display: none;
     }
   }
+  .max-lg\:h-\[25px\] {
+    @media (width < 64rem) {
+      height: 25px;
+    }
+  }
   .max-lg\:h-\[29px\] {
     @media (width < 64rem) {
       height: 29px;
@@ -1229,6 +1255,16 @@
       height: 77px;
     }
   }
+  .max-lg\:h-\[215px\] {
+    @media (width < 64rem) {
+      height: 215px;
+    }
+  }
+  .max-lg\:h-\[250px\] {
+    @media (width < 64rem) {
+      height: 250px;
+    }
+  }
   .max-lg\:h-\[380px\] {
     @media (width < 64rem) {
       height: 380px;
@@ -1242,6 +1278,11 @@
   .max-lg\:h-\[450px\] {
     @media (width < 64rem) {
       height: 450px;
+    }
+  }
+  .max-lg\:h-\[px\] {
+    @media (width < 64rem) {
+      height: px;
     }
   }
   .max-lg\:min-h-\[768px\] {
@@ -1425,6 +1466,11 @@
       left: 65%;
     }
   }
+  .max-sm\:mt-0 {
+    @media (width < 40rem) {
+      margin-top: 0;
+    }
+  }
   .max-sm\:mt-4 {
     @media (width < 40rem) {
       margin-top: calc(var(--spacing) * 4);
@@ -1438,6 +1484,11 @@
   .max-sm\:mt-9 {
     @media (width < 40rem) {
       margin-top: calc(var(--spacing) * 9);
+    }
+  }
+  .max-sm\:mb-4 {
+    @media (width < 40rem) {
+      margin-bottom: calc(var(--spacing) * 4);
     }
   }
   .max-sm\:mb-7 {
@@ -1470,9 +1521,34 @@
       height: 153px;
     }
   }
+  .max-sm\:h-\[170px\] {
+    @media (width < 40rem) {
+      height: 170px;
+    }
+  }
+  .max-sm\:h-auto {
+    @media (width < 40rem) {
+      height: auto;
+    }
+  }
   .max-sm\:w-\[28px\] {
     @media (width < 40rem) {
       width: 28px;
+    }
+  }
+  .max-sm\:w-\[64px\] {
+    @media (width < 40rem) {
+      width: 64px;
+    }
+  }
+  .max-sm\:w-\[70px\] {
+    @media (width < 40rem) {
+      width: 70px;
+    }
+  }
+  .max-sm\:w-\[82px\] {
+    @media (width < 40rem) {
+      width: 82px;
     }
   }
   .max-sm\:w-\[560px\] {
@@ -1490,6 +1566,21 @@
       grid-template-columns: repeat(1, minmax(0, 1fr));
     }
   }
+  .max-sm\:flex-row {
+    @media (width < 40rem) {
+      flex-direction: row;
+    }
+  }
+  .max-sm\:justify-start {
+    @media (width < 40rem) {
+      justify-content: flex-start;
+    }
+  }
+  .max-sm\:gap-4 {
+    @media (width < 40rem) {
+      gap: calc(var(--spacing) * 4);
+    }
+  }
   .max-sm\:gap-5 {
     @media (width < 40rem) {
       gap: calc(var(--spacing) * 5);
@@ -1505,9 +1596,19 @@
       padding-inline: calc(var(--spacing) * 2);
     }
   }
+  .max-sm\:px-9 {
+    @media (width < 40rem) {
+      padding-inline: calc(var(--spacing) * 9);
+    }
+  }
   .max-sm\:px-\[18px\] {
     @media (width < 40rem) {
       padding-inline: 18px;
+    }
+  }
+  .max-sm\:py-12 {
+    @media (width < 40rem) {
+      padding-block: calc(var(--spacing) * 12);
     }
   }
   .max-sm\:py-14 {
@@ -1550,10 +1651,21 @@
       font-size: 28px;
     }
   }
+  .max-sm\:text-\[30px\] {
+    @media (width < 40rem) {
+      font-size: 30px;
+    }
+  }
   .max-sm\:leading-\[1\.2\] {
     @media (width < 40rem) {
       --tw-leading: 1.2;
       line-height: 1.2;
+    }
+  }
+  .max-sm\:leading-\[1\.5\] {
+    @media (width < 40rem) {
+      --tw-leading: 1.5;
+      line-height: 1.5;
     }
   }
   .max-sm\:leading-\[1\.8\] {
