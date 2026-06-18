@@ -193,6 +193,9 @@
   .top-4 {
     top: calc(var(--spacing) * 4);
   }
+  .top-\[90px\] {
+    top: 90px;
+  }
   .top-\[240px\] {
     top: 240px;
   }
@@ -201,6 +204,9 @@
   }
   .top-\[300px\] {
     top: 300px;
+  }
+  .right-0 {
+    right: 0;
   }
   .right-\[62px\] {
     right: 62px;
@@ -213,6 +219,9 @@
   }
   .bottom-\[20px\] {
     bottom: 20px;
+  }
+  .left-0 {
+    left: 0;
   }
   .left-1\/2 {
     left: calc(1 / 2 * 100%);
@@ -292,6 +301,9 @@
   .mb-\[40px\] {
     margin-bottom: 40px;
   }
+  .mb-\[45px\] {
+    margin-bottom: 45px;
+  }
   .mb-\[50px\] {
     margin-bottom: 50px;
   }
@@ -324,6 +336,9 @@
   }
   .h-\[28px\] {
     height: 28px;
+  }
+  .h-\[34px\] {
+    height: 34px;
   }
   .h-\[38px\] {
     height: 38px;
@@ -432,6 +447,9 @@
   }
   .w-\[150\%\] {
     width: 150%;
+  }
+  .w-\[170px\] {
+    width: 170px;
   }
   .w-\[178px\] {
     width: 178px;
@@ -777,6 +795,9 @@
   .px-\[5px\] {
     padding-inline: 5px;
   }
+  .px-\[70px\] {
+    padding-inline: 70px;
+  }
   .py-1 {
     padding-block: var(--spacing);
   }
@@ -884,6 +905,9 @@
   .text-\[32px\] {
     font-size: 32px;
   }
+  .text-\[36px\] {
+    font-size: 36px;
+  }
   .text-\[38px\] {
     font-size: 38px;
   }
@@ -911,6 +935,10 @@
   .leading-\[1\.2\] {
     --tw-leading: 1.2;
     line-height: 1.2;
+  }
+  .leading-\[1\.4\] {
+    --tw-leading: 1.4;
+    line-height: 1.4;
   }
   .leading-\[1\.5\] {
     --tw-leading: 1.5;
@@ -1653,6 +1681,11 @@
       gap: 28px;
     }
   }
+  .max-lg\:px-0 {
+    @media (width < 64rem) {
+      padding-inline: 0;
+    }
+  }
   .max-lg\:px-3 {
     @media (width < 64rem) {
       padding-inline: calc(var(--spacing) * 3);
@@ -1721,6 +1754,11 @@
   .max-lg\:text-\[28px\] {
     @media (width < 64rem) {
       font-size: 28px;
+    }
+  }
+  .max-lg\:text-\[32px\] {
+    @media (width < 64rem) {
+      font-size: 32px;
     }
   }
   .max-lg\:text-\[34px\] {
@@ -2108,6 +2146,11 @@
       padding-block: calc(var(--spacing) * 14);
     }
   }
+  .max-sm\:py-\[45px\] {
+    @media (width < 40rem) {
+      padding-block: 45px;
+    }
+  }
   .max-sm\:py-\[50px\] {
     @media (width < 40rem) {
       padding-block: 50px;
@@ -2173,6 +2216,11 @@
       font-size: 22px;
     }
   }
+  .max-sm\:text-\[26px\] {
+    @media (width < 40rem) {
+      font-size: 26px;
+    }
+  }
   .max-sm\:text-\[28px\] {
     @media (width < 40rem) {
       font-size: 28px;
@@ -2187,6 +2235,12 @@
     @media (width < 40rem) {
       --tw-leading: 1.2;
       line-height: 1.2;
+    }
+  }
+  .max-sm\:leading-\[1\.3\] {
+    @media (width < 40rem) {
+      --tw-leading: 1.3;
+      line-height: 1.3;
     }
   }
   .max-sm\:leading-\[1\.4\] {
